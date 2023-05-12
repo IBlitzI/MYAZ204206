@@ -51,7 +51,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Shared\Utiliti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveApp", "Apps\RecursiveApp\RecursiveApp.csproj", "{105EFB75-F24B-4F90-A2CD-B53304848683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithmsApp", "SortingAlgorithmsApp\SortingAlgorithmsApp.csproj", "{CB42FFD3-EFFF-449E-8128-CE57DA79EEFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithmsApp", "SortingAlgorithmsApp\SortingAlgorithmsApp.csproj", "{CB42FFD3-EFFF-449E-8128-CE57DA79EEFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5DB4C1B-6549-487D-95D9-08AED9FB6414} = {F5DB4C1B-6549-487D-95D9-08AED9FB6414}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
